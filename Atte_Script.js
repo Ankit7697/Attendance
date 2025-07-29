@@ -653,7 +653,7 @@ try {
 };
 
 
-const xlsbtn = document.creatElement("button");
+const xlsbtn = document.createElement("button");
 xlsbtn.textContent = "Export to Excel";
 xlsbtn.className = "sbtn";
 container.append(xlsbtn);
